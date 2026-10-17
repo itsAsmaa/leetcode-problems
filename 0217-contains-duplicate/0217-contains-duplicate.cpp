@@ -4,7 +4,7 @@
 class Solution {
 public:
     bool containsDuplicate(std::vector<int>& nums) {
-        // 2. This sorts the array perfectly in O(n log n)
+        // This sorts the array perfectly in O(n log n)
         std::sort(nums.begin(), nums.end());
         
         
